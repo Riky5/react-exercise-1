@@ -6,7 +6,7 @@ Simple React exercise: build a digital business card following this figma design
 
 ### My Solution
 
-![My Business Card]()
+![My Business Card](src/images/my-business-card.png)
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
