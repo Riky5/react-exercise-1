@@ -12,3 +12,9 @@
   line-height: 1.5;
   margin-top: .8em;
 }
+
+@media (max-width: 500px) {
+  .about {
+    padding-inline: 1.6em;
+  }
+}

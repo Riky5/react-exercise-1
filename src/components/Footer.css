@@ -13,3 +13,10 @@
   margin-inline: .4em;
   font-size: 2.2em;
 }
+
+@media (max-width: 500px) {
+  .footer p {
+  margin-inline: .2em;
+  font-size: 1.6em;
+}
+}

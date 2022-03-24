@@ -1,4 +1,4 @@
-.interest {
+.interests {
   background-color: rgb(35, 37, 34);
   color: rgba(255, 255, 255);
   display: flex;
@@ -7,9 +7,18 @@
   text-align: justify;
 }
 
-.interest p {
+.interests p {
   font-size: .8em;
   line-height: 1.5;
   margin-top: .8em;
   padding-bottom: 4em;
+}
+
+@media (max-width: 500px) {
+  .interests {
+    padding-inline: 1.6em;
+  }
+  .interests p {
+    padding-bottom: 2em;
+  }
 }
