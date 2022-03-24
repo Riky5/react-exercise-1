@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 .App {
   text-align: center;
   margin: auto;
   max-width: 26em;
+  font-family: 'Inter', sans-serif;;
 }
 
 h3 {

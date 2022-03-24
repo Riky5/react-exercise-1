@@ -1,5 +1,7 @@
-import './Header.css'
-import profilePic from '../images/my-photo.jpg'
+import './Header.css';
+import profilePic from '../images/my-photo.jpg';
+import { FaLinkedin } from 'react-icons/fa';
+import { GrMail } from 'react-icons/gr';
 
 function Header() {
   return (
@@ -8,9 +10,9 @@ function Header() {
       <h1>Riky Moroni</h1>
       <h4>Full-Stack Developer</h4>
       <p>riky-moroni.website</p>
-      <div>
-        <button>Email</button>
-        <button>LinkedIn</button>
+      <div className='buttons-box'>
+        <button><GrMail className='email' />Email</button>
+        <button><FaLinkedin className='linkedin' />LinkedIn</button>
       </div>
     </header>
   )
