@@ -1,0 +1,15 @@
+.interest {
+  background-color: rgb(35, 37, 34);
+  color: rgba(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding-inline: 4em;
+  text-align: justify;
+}
+
+.interest p {
+  font-size: .8em;
+  line-height: 1.5;
+  margin-top: .8em;
+  padding-bottom: 4em;
+}
