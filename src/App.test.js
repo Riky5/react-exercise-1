@@ -12,3 +12,9 @@ test('renders email button', () => {
   const buttonElement = screen.getByText(/Email/i);
   expect(buttonElement).toBeInTheDocument();
 });
+
+test('renders photo', () => {
+  render(<App />);
+  const imgElement = screen.getByAltText(/profile-pic/i);
+  expect(imgElement).toBeInTheDocument();
+});
