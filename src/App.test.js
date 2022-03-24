@@ -18,3 +18,9 @@ test('renders photo', () => {
   const imgElement = screen.getByAltText(/profile-pic/i);
   expect(imgElement).toBeInTheDocument();
 });
+
+test('renders h3 with title of section', () => {
+  render(<App />);
+  const h3Element = screen.getByText(/About/);
+  expect(h3Element).toBeInTheDocument();
+});
